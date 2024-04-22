@@ -20,13 +20,13 @@
 [![Project-Status](https://img.shields.io/badge/Project%20Status-Pending-yellow.svg)](https://github.com/anuja-rahul/portfolio)
 &nbsp;  
 [![Project-Version](https://img.shields.io/badge/Version-v0.1-green.svg)](https://github.com/anuja-rahul/portfolio)
-&nbsp;  
-![Repository Views](https://komarev.com/ghpvc/?username=anuja-rahul&label=Repository+Views&color=blueviolet)
 
 
 
 <!-- 
 [![Project-Status](https://img.shields.io/badge/Project%20Status-Pending-yellow?style=for-the-badge&logo=github)](https://github.com/anuja-rahul/portfolio)
+&nbsp;  
+![Repository Views](https://komarev.com/ghpvc/?username=anuja-rahul&label=Repository+Views&color=blueviolet)
  -->
 
 
