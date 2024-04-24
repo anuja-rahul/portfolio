@@ -5,9 +5,15 @@ import { Menu, X } from "lucide-react";
 const NavLinks = () => {
   return (
     <>
-      <NavLink to="/about">About</NavLink>
-      <NavLink to="/about">Blog</NavLink>
-      <NavLink to="/about">Project</NavLink>
+      <NavLink to="/about" className="nav-links my-1">
+        About
+      </NavLink>
+      <NavLink to="/blog" className="nav-links my-1">
+        Blog
+      </NavLink>
+      <NavLink to="/projects" className="nav-links my-1">
+        Project
+      </NavLink>
     </>
   );
 };
@@ -20,14 +26,21 @@ function Nav() {
   };
 
   return (
-    <nav className="w-1/3">
-      <div className="hidden justify-between text-white md:flex">
-        <NavLinks />
-      </div>
-      <div className="text-white md:hidden">
-        <button onClick={toggleNavbar}>{isOpen ? <X /> : <Menu />}</button>
-      </div>
-    </nav>
+    <>
+      <nav className="header-nav flex w-1/3 justify-end">
+        <div className="hidden w-full justify-between text-white md:flex">
+          <NavLinks />
+        </div>
+        <div className="text-white md:hidden">
+          <button onClick={toggleNavbar}>{isOpen ? <X /> : <Menu />}</button>
+        </div>
+      </nav>
+      {isOpen && (
+        <div className="flex basis-full flex-col items-center">
+          <NavLinks />
+        </div>
+      )}
+    </>
   );
 }
 

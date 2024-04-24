@@ -2,7 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
-    background: #3a3a3a;
+  background: #3a3a3a;
+}
+
+nav {
+  min-height: 2.3rem;
+}
+
+.nav-links {
+  color: #efefef;
+  border-radius: 4rem;
+  padding: 0.3rem 0.4rem;
+  border: 1px solid transparent;
+  transition: all 0.5s;
+}
+
+.nav-links:hover {
+  border: 1px solid #efefef;
+}
+
+.nav-links.active {
+  background: rgba(12, 29, 0, 0.3);
+  border: 1px solid #efefef;
 }
