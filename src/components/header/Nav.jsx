@@ -5,14 +5,17 @@ import { Menu, X } from "lucide-react";
 const NavLinks = () => {
   return (
     <>
+      <NavLink to="/" className="nav-links my-1">
+        Home
+      </NavLink>
+      <NavLink to="/projects" className="nav-links my-1">
+        Projects
+      </NavLink>
       <NavLink to="/about" className="nav-links my-1">
         About
       </NavLink>
       <NavLink to="/blog" className="nav-links my-1">
         Blog
-      </NavLink>
-      <NavLink to="/projects" className="nav-links my-1">
-        Project
       </NavLink>
     </>
   );
