@@ -12,31 +12,9 @@ body {
     300 11px/1.4 "Helvetica Neue",
     "sans-serif";
   color: #444;
-  background: #191919;
+  background: #092635;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-nav {
-  min-height: 2.3rem;
-}
-
-.nav-links {
-  color: #efefef;
-  border-radius: 4rem;
-  padding: 0.7rem 0.9rem;
-  border: 2px solid transparent;
-  transition: all 0.5s;
-}
-
-.nav-links:hover {
-  border: 2px solid #efefef;
-}
-
-.nav-links.active {
-  background: rgba(0, 91, 65, 0.3);
-  border: 2px solid #bed754;
-  color: #bed754;
 }

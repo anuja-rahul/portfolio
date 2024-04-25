@@ -29,7 +29,7 @@
 
 #### My personal portfolio site made using Vite, React, TailwindCSS, and GSAP.
 
-### Visit Us: [here](github.com/anuja-rahul/portfolio)
+### Visit Us: [here]()
 
 ---
 
@@ -38,7 +38,9 @@
 - [x] Prettier config
 - [x] Header (NavBar)
 - [x] page routing
-- [ ] Hero Section
+- [x] added color theme [#bed754, #e3651d, #005b41, #191919, #092635]
+- [x] background layout finished
+- [ ] Hero Section (Working on it)
 - [ ] Animated title
 - [ ] Footer
 - [ ] Testing and deployment

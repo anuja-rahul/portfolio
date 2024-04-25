@@ -1,7 +1,7 @@
-import "../../App.scss";
+import "./index.scss";
 
 function Home() {
-  return <div>Home</div>;
+  return <div>Home page content</div>;
 }
 
 export default Home;
