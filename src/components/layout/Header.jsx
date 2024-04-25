@@ -6,7 +6,7 @@ function Header() {
     <>
       <header
         className="sticky top-0 z-20 mx-auto flex w-full flex-wrap items-center 
-    justify-between rounded-b-[2.5rem] border-b border-gray-500/25 bg-slate-800/25 p-6"
+    justify-between rounded-b-[2.5rem] border-b border-gray-500/25 bg-stone-900/25 p-6"
       >
         <Logo />
         <Nav />
