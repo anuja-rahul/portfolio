@@ -50,13 +50,15 @@
   }
 
   .roll-container span{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin: 0;
     line-height: 0;
     // opacity: 0;
   }
 
   .round-btn {
+    opacity: 1;
+    // transform: translateY(100px);
     color: #bed754;
     font-size: 13px;
     font-weight: 400;
@@ -75,8 +77,8 @@
     &:hover {
       background: rgba(0, 91, 65, 0.5);
       color: #bed754;
-      transform: translateY(-4px);
       border: 2px solid #bed754;
+      transform: translateY(-4px);
     }
   }
 }

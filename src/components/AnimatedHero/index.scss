@@ -1,0 +1,50 @@
+// @keyframes custombounceInDown {
+//     from,
+//     60%,
+//     75%,
+//     90%,
+//     to {
+//       animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+//     }
+
+//     0% {
+//       opacity: 0;
+//       transform: translate3d(0, -3000px, 0);
+//     }
+
+//     60% {
+//       opacity: 1;
+//       transform: translate3d(0, 25px, 0);
+//     }
+
+//     75% {
+//       transform: translate3d(0, -10px, 0);
+//     }
+
+//     90% {
+//       transform: translate3d(0, 5px, 0);
+//     }
+
+//     to {
+//       transform: none;
+//     }
+//   }
+
+.text-animate {
+  display: inline-block;
+  opacity: 0;
+  animation: jackInTheBox 1s 1s;
+  //   animation-iteration-count: 1;
+  animation-fill-mode: both;
+  min-width: 10px;
+}
+
+@for $i from 1 through 33 {
+  .text-animate._#{$i} {
+    animation-delay: #{$i / 10}s;
+  }
+}
+
+// .each-char {
+//   opacity: 1;
+// }
