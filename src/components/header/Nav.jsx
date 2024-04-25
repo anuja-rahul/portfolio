@@ -31,7 +31,7 @@ function Nav() {
   return (
     <>
       <nav className="header-nav flex w-1/3 justify-end">
-        <div className="hidden w-full justify-between text-white md:flex">
+        <div className="hidden w-full justify-between text-white md:flex text-xl">
           <NavLinks />
         </div>
         <div className="text-white md:hidden">

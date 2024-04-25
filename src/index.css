@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  background: #3a3a3a;
+  margin: 0;
+  font:
+    300 11px/1.4 "Helvetica Neue",
+    "sans-serif";
+  color: #444;
+  background: #191919;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 nav {
@@ -13,16 +26,17 @@ nav {
 .nav-links {
   color: #efefef;
   border-radius: 4rem;
-  padding: 0.3rem 0.4rem;
-  border: 1px solid transparent;
+  padding: 0.7rem 0.9rem;
+  border: 2px solid transparent;
   transition: all 0.5s;
 }
 
 .nav-links:hover {
-  border: 1px solid #efefef;
+  border: 2px solid #efefef;
 }
 
 .nav-links.active {
-  background: rgba(12, 29, 0, 0.3);
-  border: 1px solid #efefef;
+  background: rgba(0, 91, 65, 0.3);
+  border: 2px solid #bed754;
+  color: #bed754;
 }

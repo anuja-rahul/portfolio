@@ -1,0 +1,26 @@
+$primary-color: #bed754;
+$secondary-color: #e3651d;
+$third-color: #005b41;
+$fourth-color: #191919;
+
+@import "animate.css/animate";
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(./assets/fonts/helvetica-neu.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "La Belle Aurore";
+  src: url(./assets/fonts/LaBelleAurore.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url(./assets/fonts/CoolveticaRg-Regular.woff2) format("woff2");
+}
+
+input,
+textarea {
+  font-family: "Helvetica Neue";
+}
