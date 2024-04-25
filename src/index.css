@@ -12,7 +12,7 @@ body {
     300 11px/1.4 "Helvetica Neue",
     "sans-serif";
   color: #444;
-  background: #092635;
+  background: rgba(9, 38, 53, 1);
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;

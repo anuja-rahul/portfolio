@@ -6,17 +6,17 @@ import "./index.scss";
 const NavLinks = () => {
   return (
     <>
-      <NavLink to="/" className="nav-links my-1">
+      <NavLink to="/" className="nav-links my-1 mt-1">
         Home
       </NavLink>
-      <NavLink to="/projects" className="nav-links my-1">
-        Projects
-      </NavLink>
-      <NavLink to="/about" className="nav-links my-1">
+      <NavLink to="/about" className="nav-links my-1 mt-1">
         About
       </NavLink>
-      <NavLink to="/blog" className="nav-links my-1">
-        Blog
+      <NavLink to="/projects" className="nav-links my-1 mt-1">
+        Projects
+      </NavLink>
+      <NavLink to="/contact" className="nav-links my-1 mt-1">
+        Contact
       </NavLink>
     </>
   );
@@ -32,7 +32,7 @@ function Nav() {
   return (
     <>
       <nav className="header-nav flex w-1/3 justify-end">
-        <div className="hidden w-full justify-between text-white md:flex text-xl">
+        <div className="hidden w-full justify-between text-xl text-white md:flex">
           <NavLinks />
         </div>
         <div className="text-white md:hidden">
