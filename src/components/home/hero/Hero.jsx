@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useGSAP } from "@gsap/react";
 import SplitTextJS from "split-text-js";
 import AnimatedHero from "../../AnimatedHero/Index";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Hero() {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -25,6 +25,17 @@ function Hero() {
     "r",
     ".",
   ];
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 4000)
+
+    // Return a cleanup function to clear the timeout when the component unmounts
+    return () => {
+      clearTimeout(timeoutId)
+    }
+  }, [])
 
   useGSAP(() => {
     const titles = gsap.utils.toArray(".title-items");
