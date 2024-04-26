@@ -5,6 +5,7 @@ import { useGSAP } from "@gsap/react";
 import SplitTextJS from "split-text-js";
 import AnimatedHero from "../../AnimatedHero/Index";
 import { useEffect, useState } from "react";
+import Logo from "../logo/Logo";
 
 function Hero() {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -125,6 +126,7 @@ function Hero() {
           contact me
         </Link>
       </div>
+      <Logo />
     </div>
   );
 }
