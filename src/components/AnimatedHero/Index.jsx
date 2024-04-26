@@ -20,7 +20,7 @@ const AnimatedHero = ({ letterClass, strArray, idx }) => {
   // }, []);
 
   return (
-    <span className="animated-container">
+    <span className="animated-container lg:pt-0 text-[4.5rem] md:text-[5rem] lg:text-[5.5rem]">
       {strArray.map((char, i) => (
         <span
           key={char + i}

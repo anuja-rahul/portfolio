@@ -31,7 +31,7 @@
 //   }
 
 .text-animate {
-  display: inline-block;
+  display: inline-block !important;
   opacity: 0;
   animation: jackInTheBox 1s 1s;
   //   animation-iteration-count: 1;

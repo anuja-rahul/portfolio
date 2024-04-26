@@ -31,7 +31,6 @@ function Hero() {
     const tl = gsap.timeline({ repeat: -1, delay: 2.4 });
 
     titles.forEach((letter) => {
-      // DO something
       const splitTitles = new SplitTextJS(letter);
 
       tl.from(
@@ -68,13 +67,29 @@ function Hero() {
   return (
     <div className="hero-page container">
       <div className="text-zone">
-        <h1 className="title pt-12 sm:pt-12 lg:pt-0">
-          <span className={`${letterClass} each-char`}>H</span>
-          <span className={`${letterClass}  _12 each-char`}>i,</span>
+        <h1 className="title pt-12 sm:pt-12">
+          <span
+            className={`${letterClass} each-char text-[4.5rem] md:text-[5rem] lg:pt-0 lg:text-[5.5rem]`}
+          >
+            H
+          </span>
+          <span
+            className={`${letterClass}  _12 each-char text-[4.5rem] md:text-[5rem] lg:pt-0 lg:text-[5.5rem]`}
+          >
+            i,
+          </span>
           {/* <br /> I{"'"}m{" "} */}
           <br />
-          <span className={`${letterClass}  _13 each-char`}>I</span>
-          <span className={`${letterClass}  _14 each-char`}>{"'"}m</span>{" "}
+          <span
+            className={`${letterClass}  _13 each-char text-[4.5rem] md:text-[5rem] lg:pt-0 lg:text-[5.5rem]`}
+          >
+            I
+          </span>
+          <span
+            className={`${letterClass}  _14 each-char text-[4.5rem] md:text-[5rem] lg:pt-0 lg:text-[5.5rem]`}
+          >
+            {"'"}m
+          </span>{" "}
           <AnimatedHero
             letterClass={letterClass}
             strArray={letterArray}
@@ -87,14 +102,15 @@ function Hero() {
             idx={20}
           />
         </h1>
-        <div className="roll-container pt-12 sm:pt-12 lg:pt-0">
+        <div className="roll-container mb-4 pt-12 sm:pt-12 lg:pt-0">
           <div className="text-wrapper">
             <span className="title-items absolute">Frontend Developer</span>
             <span className="title-items absolute">Python Developer</span>
             <span className="title-items absolute">CS Undergraduate</span>
           </div>
         </div>
-        <Link to="/contact" className="round-btn uppercase">
+        <br />
+        <Link to="/contact" className="round-btn mt-3 uppercase">
           contact me
         </Link>
       </div>
