@@ -10,9 +10,37 @@
   margin: auto;
   opacity: 0;
 
-  &:hover {
-    animation: bounce 1.2s;
-    animation-fill-mode: both;
+  .hover-container{
+    &:hover {
+        animation: bounce 1.2s;
+        animation-fill-mode: both;
+      }
+  }
+
+  &::before {
+    content: "<svg>";
+    pointer-events: none;
+    font-family: "La Belle Aurore";
+    color: #bed754;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -40px;
+    right: 10%;
+    opacity: 0.6;
+  }
+
+  &::after {
+    content: "</svg>";
+    pointer-events: none;
+    font-family: "La Belle Aurore";
+    color: #bed754;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: auto;
+    right: 10%;
+    // animation: fadeIn 1s 1.7s backwards;
+    opacity: 0.6;
   }
 
   svg {
@@ -20,6 +48,8 @@
     height: auto;
     bottom: 0;
     transform: rotateZ(-10deg) !important;
+
+    
   }
 
   .solid-logo {
