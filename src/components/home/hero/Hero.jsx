@@ -28,14 +28,14 @@ function Hero() {
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 4000)
+      setLetterClass("text-animate-hover");
+    }, 4000);
 
     // Return a cleanup function to clear the timeout when the component unmounts
     return () => {
-      clearTimeout(timeoutId)
-    }
-  }, [])
+      clearTimeout(timeoutId);
+    };
+  }, []);
 
   useGSAP(() => {
     const titles = gsap.utils.toArray(".title-items");
@@ -76,7 +76,7 @@ function Hero() {
   }, []);
 
   return (
-    <div className="hero-page container">
+    <div className="hero-page container h-[100vh] w-full">
       <div className="text-zone">
         <h1 className="title pt-12 sm:pt-12">
           <span
