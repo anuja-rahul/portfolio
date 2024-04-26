@@ -25,3 +25,8 @@ input,
 textarea {
   font-family: "Helvetica Neue";
 }
+
+::selection {
+  background-color: #bed754;
+  color: #092635;
+}

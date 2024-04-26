@@ -63,27 +63,29 @@
 
   .round-btn {
     opacity: 0;
-    // transform: translateY(100px);
     color: #bed754;
     font-size: 13px;
-    font-weight: 400;
     letter-spacing: 4px;
-    font-family: "sans-serif";
+    font-family: "coolvetica";
     text-decoration: none;
     padding: 10px 18px;
     border-radius: 4rem;
     border: 2px solid #bed754;
     margin-top: 25px;
     float: left;
-    // animation: fadeIn 1s 1.8s backwards;
+    font-weight: 500;
     white-space: nowrap;
     transition: all 0.6s;
 
     &:hover {
-      background: rgba(0, 91, 65, 0.5);
-      color: #bed754;
-      border: 2px solid #bed754;
-      transform: translateY(-4px);
+      background: rgba(0, 30, 21, 0.5);
+      -webkit-backdrop-filter: blur(2px);
+      backdrop-filter: blur(2px);
+      border: 2px solid #efefef;
+      color: #efefef;
+      animation: bounce 1.5s;
+      animation-fill-mode: both;
+      box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.4);
     }
   }
 }
