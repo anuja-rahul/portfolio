@@ -77,57 +77,59 @@ function Hero() {
   }, []);
 
   return (
-    <div className="hero-page container h-[85vh] w-full">
-      <div className="text-zone">
-        <h1 className="title pt-8 sm:pt-8">
-          <span
-            className={`${letterClass} each-char text-[4.5rem] md:text-[5rem] lg:pt-0 lg:text-[5.5rem]`}
-          >
-            H
-          </span>
-          <span
-            className={`${letterClass}  _12 each-char text-[4.5rem] md:text-[5rem] lg:pt-0 lg:text-[5.5rem]`}
-          >
-            i,
-          </span>
-          {/* <br /> I{"'"}m{" "} */}
-          <br />
-          <span
-            className={`${letterClass}  _13 each-char text-[4.5rem] md:text-[5rem] lg:pt-0 lg:text-[5.5rem]`}
-          >
-            I
-          </span>
-          <span
-            className={`${letterClass}  _14 each-char text-[4.5rem] md:text-[5rem] lg:pt-0 lg:text-[5.5rem]`}
-          >
-            {"'"}m
-          </span>{" "}
-          <AnimatedHero
-            letterClass={letterClass}
-            strArray={letterArray}
-            idx={15}
-          />
-          <br />
-          <AnimatedHero
-            letterClass={letterClass}
-            strArray={jobArray}
-            idx={20}
-          />
-        </h1>
-        <div className="roll-container mb-4 pt-8 lg:pt-0">
-          <div className="text-wrapper">
-            <span className="title-items absolute">Frontend Developer</span>
-            <span className="title-items absolute">Python Developer</span>
-            <span className="title-items absolute">CS Undergraduate</span>
+    <section id="hero" className="sm:h-[120vh] md:h-[120vh] lg:h-[80vh]">
+      <div id="hero" className="hero-page container h-[85vh] w-full">
+        <div className="text-zone">
+          <h1 className="title pt-8 sm:pt-8">
+            <span
+              className={`${letterClass} each-char text-[4.5rem] md:text-[5rem] lg:pt-0 lg:text-[5.5rem]`}
+            >
+              H
+            </span>
+            <span
+              className={`${letterClass}  _12 each-char text-[4.5rem] md:text-[5rem] lg:pt-0 lg:text-[5.5rem]`}
+            >
+              i,
+            </span>
+            {/* <br /> I{"'"}m{" "} */}
+            <br />
+            <span
+              className={`${letterClass}  _13 each-char text-[4.5rem] md:text-[5rem] lg:pt-0 lg:text-[5.5rem]`}
+            >
+              I
+            </span>
+            <span
+              className={`${letterClass}  _14 each-char text-[4.5rem] md:text-[5rem] lg:pt-0 lg:text-[5.5rem]`}
+            >
+              {"'"}m
+            </span>{" "}
+            <AnimatedHero
+              letterClass={letterClass}
+              strArray={letterArray}
+              idx={15}
+            />
+            <br />
+            <AnimatedHero
+              letterClass={letterClass}
+              strArray={jobArray}
+              idx={20}
+            />
+          </h1>
+          <div className="roll-container mb-4 pt-8 lg:pt-0">
+            <div className="text-wrapper">
+              <span className="title-items absolute">Frontend Developer</span>
+              <span className="title-items absolute">Python Developer</span>
+              <span className="title-items absolute">CS Undergraduate</span>
+            </div>
           </div>
+          <br />
+          <Link to="/contact" className="round-btn mt-3 uppercase">
+            contact me
+          </Link>
         </div>
-        <br />
-        <Link to="/contact" className="round-btn mt-3 uppercase">
-          contact me
-        </Link>
+        <Logo />
       </div>
-      <Logo />
-    </div>
+    </section>
   );
 }
 

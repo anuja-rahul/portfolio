@@ -2,9 +2,10 @@ import Hero from "./hero/Hero";
 
 function Home() {
   return (
-    <section>
+    <>
       <Hero />
-    </section>
+      {/* <section id="about" className="h-[100vh]"><div>Hello</div></section> */}
+    </>
   );
 }
 

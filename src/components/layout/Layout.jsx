@@ -3,7 +3,7 @@ import Header from "./Header";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-function Index() {
+function Layout() {
   useGSAP(() => {
     const tl = gsap.timeline({ repeat: -1, yoyo: true });
     tl.fromTo(
@@ -23,7 +23,7 @@ function Index() {
   });
 
   return (
-    <div className="App">
+    <div className="App w-full h-full">
       <Header />
       <div className="page">
         <span className="tags all-tags top-tag-html">&lt;html&gt;</span>
@@ -42,4 +42,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default Layout;
