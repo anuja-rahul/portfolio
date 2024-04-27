@@ -30,7 +30,7 @@ function Index() {
         <br />
         <span className="tags top-tags all-tags">&lt;body&gt;</span>
         <Outlet />
-        <span className="tags bottom-tags all-tags mb-3 body-bottom">
+        <span className="tags bottom-tags all-tags body-bottom mb-3">
           &lt;/body&gt;
         </span>
         <br />

@@ -22,6 +22,7 @@
 
   &::before {
     content: "<svg>";
+    // content-visibility: hidden;
     pointer-events: none;
     font-family: "La Belle Aurore";
     color: #bed754;
