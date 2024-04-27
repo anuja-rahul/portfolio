@@ -30,8 +30,8 @@ function Layout() {
         <span className="tags all-tags top-tag-html">&lt;html&gt;</span>
         <br />
         <span className="tags top-tags all-tags">&lt;body&gt;</span>
-        <Analytics />
         <Outlet />
+        <Analytics />
         <span className="tags bottom-tags all-tags body-bottom mb-3">
           &lt;/body&gt;
         </span>
