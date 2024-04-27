@@ -40,7 +40,7 @@ function Nav() {
         </div>
       </nav>
       {isOpen && (
-        <div className="flex basis-full flex-col items-center">
+        <div className="flex basis-full flex-col items-center mobile-nav">
           <NavLinks />
         </div>
       )}

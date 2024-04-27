@@ -77,9 +77,9 @@ function Hero() {
   }, []);
 
   return (
-    <div className="hero-page container h-[100vh] w-full">
+    <div className="hero-page container h-[85vh] w-full">
       <div className="text-zone">
-        <h1 className="title pt-12 sm:pt-12">
+        <h1 className="title pt-8 sm:pt-8">
           <span
             className={`${letterClass} each-char text-[4.5rem] md:text-[5rem] lg:pt-0 lg:text-[5.5rem]`}
           >
@@ -114,7 +114,7 @@ function Hero() {
             idx={20}
           />
         </h1>
-        <div className="roll-container mb-4 pt-12 sm:pt-12 lg:pt-0">
+        <div className="roll-container mb-4 pt-8 lg:pt-0">
           <div className="text-wrapper">
             <span className="title-items absolute">Frontend Developer</span>
             <span className="title-items absolute">Python Developer</span>

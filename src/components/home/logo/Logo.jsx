@@ -13,6 +13,7 @@ function Logo() {
   useGSAP(() => {
     // gsap.registerPlugin(DrawSVGPlugin);
     const tl = gsap.timeline();
+    const loop = gsap.timeline({ repeat: -1, yoyo: true });
 
     tl.to(bgRef.current, {
       duration: 1,
@@ -38,10 +39,25 @@ function Logo() {
           opacity: 0,
         },
         {
-          opacity: 1,
+          opacity: 0.8,
           duration: 1,
         },
       );
+
+    loop.fromTo(
+      ".hover-container",
+      {
+        y: 0,
+      },
+      {
+        y: -30,
+        duration: 1.5,
+        ease: "bounce.in",
+        delay: 4,
+        // stagger: 0.1,
+      },
+      [],
+    );
   }, []);
 
   return (

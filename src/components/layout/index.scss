@@ -2,13 +2,9 @@
   font-family: "Coolvetica", "La Belle Aurore";
 }
 
-body {
-  scrollbar-width: none;
-  &::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-  }
-}
+// body {
+//   height: 90vh;
+// }
 
 nav {
   min-height: 2.3rem;
@@ -80,8 +76,12 @@ nav {
   bottom: 1rem !important;
 }
 
+.body-bottom {
+  bottom: 3rem !important;
+}
+
 .bottom-tags {
-  bottom: 3rem;
+  bottom: 1rem;
 }
 
 .container {

@@ -9,13 +9,16 @@
   left: auto;
   margin: auto;
   opacity: 0;
+  pointer-events: none;
 
-  .hover-container{
-    &:hover {
-        animation: bounce 1.2s;
-        animation-fill-mode: both;
-      }
-  }
+  // TODO: FIx this
+
+  // .hover-container {
+  //   &:hover {
+  //     animation: bounce 1.2s;
+  //     animation-fill-mode: both;
+  //   }
+  // }
 
   &::before {
     content: "<svg>";
@@ -48,8 +51,6 @@
     height: auto;
     bottom: 0;
     transform: rotateZ(-10deg) !important;
-
-    
   }
 
   .solid-logo {
