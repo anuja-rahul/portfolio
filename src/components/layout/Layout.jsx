@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { Analytics } from "@vercel/analytics/react";
 
 function Layout() {
   useGSAP(() => {
@@ -23,12 +24,13 @@ function Layout() {
   });
 
   return (
-    <div className="App w-full h-full">
+    <div className="App h-full w-full">
       <Header />
       <div className="page">
         <span className="tags all-tags top-tag-html">&lt;html&gt;</span>
         <br />
         <span className="tags top-tags all-tags">&lt;body&gt;</span>
+        <Analytics />
         <Outlet />
         <span className="tags bottom-tags all-tags body-bottom mb-3">
           &lt;/body&gt;
