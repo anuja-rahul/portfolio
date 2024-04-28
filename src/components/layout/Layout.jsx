@@ -23,19 +23,21 @@ function Layout() {
   });
 
   return (
-    <div className="App h-full w-full">
+    <div className="App h-auto w-full">
       <Header />
       <div className="page">
         <span className="tags all-tags top-tag-html">&lt;html&gt;</span>
         <br />
         <span className="tags top-tags all-tags">&lt;body&gt;</span>
         <Outlet />
+        <span>
         <span className="tags bottom-tags all-tags body-bottom mb-3">
           &lt;/body&gt;
         </span>
         <br />
         <span className="tags bottom-tags all-tags bottom-tag-html">
           &lt;/html&gt;
+        </span>
         </span>
       </div>
     </div>

@@ -5,20 +5,3 @@
 html {
   font-size: 62.5%;
 }
-
-body {
-  margin: 0;
-  font:
-    300 11px/1.4 "Helvetica Neue",
-    "sans-serif";
-  color: #444;
-  background:
-    radial-gradient(circle at center, rgba(0, 72, 52, 0.96) 5%, rgba(9, 38, 53, 1) 95%),
-    url("assets/images/code.jpg") center repeat;
-  /* background-image: radial-gradient(circle, rgba(0, 0, 0, 0) 5%, rgb(157, 20, 20) 95%), url('assets/images/code.jpg'); */
-  /* overflow: hidden; */
-  overflow-x: hidden;
-  display: block;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}

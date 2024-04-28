@@ -77,7 +77,8 @@ function Hero() {
   }, []);
 
   return (
-    <section id="hero" className="sm:h-[120vh] md:h-[120vh] lg:h-[80vh]">
+    <section id="hero" className="hero">
+      {/* sm:h-[120vh] md:h-[120vh] lg:h-[80vh] */}
       <div id="hero-div" className="hero-page container h-[85vh] w-full">
         <div className="text-zone">
           <h1 className="title pt-8 sm:pt-8">

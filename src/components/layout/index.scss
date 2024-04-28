@@ -2,6 +2,28 @@
   font-family: "Coolvetica", "La Belle Aurore";
 }
 
+body {
+  height: fit-content;
+  margin: 0;
+  font:
+    300 11px/1.4 "Helvetica Neue",
+    "sans-serif";
+  color: #444;
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(0, 72, 52, 0.96) 5%,
+      rgba(9, 38, 53, 1) 95%
+    ),
+    url("../../assets/images/code.jpg") center repeat;
+  /* background-image: radial-gradient(circle, rgba(0, 0, 0, 0) 5%, rgb(157, 20, 20) 95%), url('assets/images/code.jpg'); */
+  /* overflow: hidden; */
+  overflow-x: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 // body {
 //   height: 90vh;
 // }
@@ -9,6 +31,49 @@
 .App {
   height: auto !important;
   width: 100%;
+
+  .page {
+    height: inherit;
+
+    .all-tags {
+      // animation: bounce 1s 1s;
+      // animation-fill-mode: forwards;
+      // animation-iteration-count: infinite;
+      color: #efefef;
+      font-family: "La Belle Aurore";
+      font-size: 18px;
+      left: 5rem;
+      pointer-events: none;
+    }
+
+    .top-tag-html {
+      top: 10px;
+      left: 2rem;
+    }
+
+    .top-tags {
+      bottom: auto;
+      top: 3.5rem;
+    }
+
+    .tags {
+      position: absolute;
+      opacity: 0.65;
+    }
+
+    .bottom-tag-html {
+      left: 2rem;
+      bottom: 1rem !important;
+    }
+
+    .body-bottom {
+      bottom: 3rem !important;
+    }
+
+    .bottom-tags {
+      bottom: 1rem;
+    }
+  }
 }
 
 nav {
@@ -44,56 +109,17 @@ nav {
 }
 
 .page {
-  width: 100%;
+  width:100%;
   height: fit-content;
   position: absolute;
   z-index: -20;
-}
-
-.all-tags {
-  // animation: bounce 1s 1s;
-  // animation-fill-mode: forwards;
-  // animation-iteration-count: infinite;
-  color: #efefef;
-  font-family: "La Belle Aurore";
-  font-size: 18px;
-  left: 5rem;
-  pointer-events: none;
-}
-
-.top-tag-html {
-  top: 10px;
-  left: 2rem;
-}
-
-.top-tags {
-  bottom: auto;
-  top: 3.5rem;
-}
-
-.tags {
-  position: absolute;
-  opacity: 0.65;
-}
-
-.bottom-tag-html {
-  left: 2rem;
-  bottom: 1rem !important;
-}
-
-.body-bottom {
-  bottom: 3rem !important;
-}
-
-.bottom-tags {
-  bottom: 1rem;
 }
 
 .container {
   left: 3rem !important;
   width: 100%;
   will-change: contents;
-  height: 90%;
+  height: auto;
   min-height: 566px;
   position: relative;
   opacity: 1;
@@ -110,7 +136,7 @@ nav {
 .about-page {
   .text-zone {
     position: absolute;
-    left: 7%;
+    left: 10%;
     width: 45%;
     vertical-align: middle;
     display: table-cell;
@@ -186,10 +212,9 @@ nav {
     }
   }
 
-  .text-animate-hover{
-    &:hover{
+  .text-animate-hover {
+    &:hover {
       color: #d4d4d4;
-      
     }
   }
 }
