@@ -9,7 +9,7 @@ function About() {
       setLetterClass("text-animate-hover");
     }, 4000);
 
-    // Return a cleanup function to clear the timeout when the component unmounts
+    // cleanup function
     return () => {
       clearTimeout(timeoutId);
     };
