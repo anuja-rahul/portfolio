@@ -29,7 +29,7 @@ function About() {
               idx={15}
             />
           </h1>
-          <p className="text-balance text-[1.2rem] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] xl:text-[1.7rem]">
+          <p className="about-text text-1 text-balance text-[1.2rem] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] xl:text-[1.7rem]">
             👋 Hi there! I{"'"}m a passionate junior frontend web developer, a
             Python enthusiast, and a computer science undergraduate student. My
             journey in the tech world began with curiosity and a love for
@@ -37,23 +37,23 @@ function About() {
             diving into backend logic, I thrive on turning ideas into elegant
             code.
           </p>
-          <p className="text-balance text-[1.2rem] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] xl:text-[1.7rem]">
+          <p className="about-text text-2 text-balance text-[1.2rem] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] xl:text-[1.7rem]">
             🌐 Frontend Magic: I specialize in creating delightful user
             experiences using HTML, CSS, and JavaScript. From responsive layouts
             to interactive animations, I{"'"}m all about making the web come
             alive.
           </p>
-          <p className="text-balance text-[1.2rem] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] xl:text-[1.7rem]">
+          <p className="about-text text-3 text-balance text-[1.2rem] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] xl:text-[1.7rem]">
             🐍 Pythonic Adventures: Python is my first language. I{"'"}ve
             tinkered with everything from web scraping to cryptography, and I
             {"'"}m always eager to explore more.
           </p>
-          <p className="text-balance text-[1.2rem] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] xl:text-[1.7rem]">
+          <p className="about-text text-4 text-balance text-[1.2rem] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] xl:text-[1.7rem]">
             🎓 Learning Never Stops: As a CS undergrad, I{"'"}m constantly
             learning and growing. Algorithms, databases, software engineering, I
             devour it all like a code-hungry bookworm.
           </p>
-          <p className="text-balance text-[1.2rem] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] xl:text-[1.7rem]">
+          <p className="about-text text-5 text-balance text-[1.2rem] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] xl:text-[1.7rem]">
             🚀 Let{"'"}s Collaborate: Whether it{"'"}s a cool project, a
             challenging problem, or just a chat about tech trends, I{"'"}m all
             ears. Let{"'"}s build something awesome together!
