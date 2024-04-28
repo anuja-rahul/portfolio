@@ -78,7 +78,7 @@ function Hero() {
 
   return (
     <section id="hero" className="sm:h-[120vh] md:h-[120vh] lg:h-[80vh]">
-      <div id="hero" className="hero-page container h-[85vh] w-full">
+      <div id="hero-div" className="hero-page container h-[85vh] w-full">
         <div className="text-zone">
           <h1 className="title pt-8 sm:pt-8">
             <span
@@ -103,11 +103,11 @@ function Hero() {
             >
               {"'"}m
             </span>{" "}
-            <AnimatedHero
-              letterClass={letterClass}
-              strArray={letterArray}
-              idx={15}
-            />
+              <AnimatedHero
+                letterClass={letterClass}
+                strArray={letterArray}
+                idx={15}
+              />
             <br />
             <AnimatedHero
               letterClass={letterClass}
@@ -116,7 +116,7 @@ function Hero() {
             />
           </h1>
           <div className="roll-container mb-4 pt-8 lg:pt-0">
-            <div className="text-wrapper">
+            <div className="text-wrapper pointer-events-none">
               <span className="title-items absolute">Frontend Developer</span>
               <span className="title-items absolute">Python Developer</span>
               <span className="title-items absolute">CS Undergraduate</span>

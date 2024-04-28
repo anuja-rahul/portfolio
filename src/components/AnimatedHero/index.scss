@@ -30,6 +30,16 @@
 //     }
 //   }
 
+.text-animate-hover._15,
+.text-animate._15 {
+  font-family: "La Belle Aurore";
+  font-weight: 600;
+}
+.text-animate,
+.text-animate-hover {
+  text-shadow: -8px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
 .text-animate {
   display: inline-block !important;
   opacity: 0;

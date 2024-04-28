@@ -21,7 +21,6 @@
     color: #fff;
     font-size: 5.5rem;
     line-height: 7rem !important;
-
     margin: 0;
     font-family: "Coolvetica";
     font-weight: 400;
@@ -61,7 +60,7 @@
   }
 
   .roll-container span {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     margin: 0;
     line-height: 0;
     // opacity: 0;
@@ -103,7 +102,7 @@
       color: #efefef;
       animation: bounce 1.5s;
       animation-fill-mode: both;
-      box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.4);
+      box-shadow: -12px 12px 25px rgba(0, 0, 0, 0.4);
     }
   }
 }

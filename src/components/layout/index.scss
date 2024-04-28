@@ -104,3 +104,15 @@ nav {
   // animation: fadeIn 1s forwards;
   animation-delay: 1s;
 }
+
+/* About page */
+
+.about-page{
+  .text-zone{
+    position: absolute;
+    left: 10%;
+    width: 35%;
+    vertical-align: middle;
+    // transform: translateY(-50%);
+  }
+}
