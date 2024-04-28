@@ -42,7 +42,8 @@ function Logo() {
           opacity: 0.8,
           duration: 1,
         },
-      );
+      )
+      // .to(solidLogoRef.current, { delay: 2 }, 2);
 
     loop.fromTo(
       ".hover-container",
