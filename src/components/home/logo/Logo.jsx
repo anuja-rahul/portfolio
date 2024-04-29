@@ -1,5 +1,5 @@
 import "./index.scss";
-import LogoImg from "../../../assets/images/_Anuja__.svg";
+import LogoImg from "./../../../assets/images/_Anuja__.svg";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";

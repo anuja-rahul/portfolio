@@ -3,9 +3,9 @@ import "./index.scss";
 import { Link } from "react-router-dom";
 import { useGSAP } from "@gsap/react";
 import SplitTextJS from "split-text-js";
-import AnimatedHero from "../../AnimatedHero/Index";
+import AnimatedHero from "./../../AnimatedHero/Index";
 import { useEffect, useState } from "react";
-import Logo from "../logo/Logo";
+import Logo from "./../logo/Logo";
 
 function Hero() {
   const [letterClass, setLetterClass] = useState("text-animate");
