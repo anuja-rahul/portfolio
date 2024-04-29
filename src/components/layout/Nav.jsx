@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import "./index.scss";
+import CustomA from "./CustomA";
 
 const NavLinks = () => {
   return (
@@ -10,7 +11,7 @@ const NavLinks = () => {
         Home
       </NavLink>
       <NavLink to="/about" className="nav-links my-1 mt-1">
-        About
+        <CustomA />
       </NavLink>
       <NavLink to="/projects" className="nav-links my-1 mt-1">
         Projects
@@ -40,7 +41,7 @@ function Nav() {
         </div>
       </nav>
       {isOpen && (
-        <div className="flex basis-full flex-col items-center mobile-nav">
+        <div className="mobile-nav flex basis-full flex-col items-center">
           <NavLinks />
         </div>
       )}

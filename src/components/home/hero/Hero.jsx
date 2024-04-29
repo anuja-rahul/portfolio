@@ -79,7 +79,7 @@ function Hero() {
   return (
     <section id="hero" className="hero">
       {/* sm:h-[120vh] md:h-[120vh] lg:h-[80vh] */}
-      <div id="hero-div" className="hero-page container h-[85vh] w-full">
+      <div id="hero-div" className="hero-page container h-[80vh] md:h-[70] lg:h-[70vh] w-full">
         <div className="text-zone">
           <h1 className="title pt-8 sm:pt-8">
             <span
@@ -104,11 +104,11 @@ function Hero() {
             >
               {"'"}m
             </span>{" "}
-              <AnimatedHero
-                letterClass={letterClass}
-                strArray={letterArray}
-                idx={15}
-              />
+            <AnimatedHero
+              letterClass={letterClass}
+              strArray={letterArray}
+              idx={15}
+            />
             <br />
             <AnimatedHero
               letterClass={letterClass}

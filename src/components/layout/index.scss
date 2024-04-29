@@ -2,6 +2,11 @@
   font-family: "Coolvetica", "La Belle Aurore";
 }
 
+.a-class{
+  font-family: "La Belle Aurore" !important;
+  padding-right: 0.1rem;
+}
+
 body {
   height: fit-content;
   margin: 0;
@@ -47,17 +52,17 @@ body {
     }
 
     .top-tag-html {
-      top: 9rem;
+      top: 3rem;
       left: 2rem;
     }
 
     .top-tags {
       bottom: auto;
-      top: 11.5rem;
+      top: 3.5rem;
     }
 
     .tags {
-      position: absolute;
+      position: relative;
       opacity: 0.65;
     }
 
@@ -67,7 +72,7 @@ body {
     }
 
     .body-bottom {
-      bottom: 4rem !important
+      bottom: 3rem !important
     }
 
     // .bottom-tags {
