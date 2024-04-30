@@ -17,7 +17,7 @@
 &nbsp;
 ![Watchers](https://img.shields.io/github/watchers/anuja-rahul/portfolio?style=for-the-badge&logo=github)
 
-[![Project-Status](https://img.shields.io/badge/Project%20Status-Working-on-it-yellow.svg)](https://github.com/anuja-rahul/portfolio)
+[![Project-Status](https://img.shields.io/badge/Project%20Status-pending-yellow.svg)](https://github.com/anuja-rahul/portfolio)
 &nbsp;  
 [![Project-Version](https://img.shields.io/badge/Version-v0.1-green.svg)](https://github.com/anuja-rahul/portfolio)
 
