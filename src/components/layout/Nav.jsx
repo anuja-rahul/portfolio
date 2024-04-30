@@ -7,16 +7,16 @@ import CustomA from "./CustomA";
 const NavLinks = () => {
   return (
     <>
-      <NavLink to="/" className="nav-links my-1 mt-1">
+      <NavLink to="/portfolio" className="nav-links my-1 mt-1">
         Home
       </NavLink>
-      <NavLink to="/about" className="nav-links my-1 mt-1">
+      <NavLink to="/portfolio/about" className="nav-links my-1 mt-1">
         <CustomA />
       </NavLink>
-      <NavLink to="/projects" className="nav-links my-1 mt-1">
+      <NavLink to="/portfolio/projects" className="nav-links my-1 mt-1">
         Projects
       </NavLink>
-      <NavLink to="/contact" className="nav-links my-1 mt-1">
+      <NavLink to="/portfolio/contact" className="nav-links my-1 mt-1">
         Contact
       </NavLink>
     </>

@@ -124,7 +124,7 @@ function Hero() {
             </div>
           </div>
           <br />
-          <Link to="/contact" className="round-btn mt-3 uppercase">
+          <Link to="/portfolio/contact" className="round-btn mt-3 uppercase">
             contact me
           </Link>
         </div>
