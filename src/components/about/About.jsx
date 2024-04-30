@@ -71,10 +71,10 @@ function About() {
           </div>
         </div>
         <div className="image-section">
-          <p className="text-white text-balance text-6xl">Something.</p>
-          <p className="text-white text-balance text-6xl">Something.</p>
-          <p className="text-white text-balance text-6xl">Something.</p>
-          <p className="text-white text-balance text-6xl">Something.</p>
+          <p className="text-white text-balance text-6xl">Something1_ </p>
+          <p className="text-white text-balance text-6xl">Something2_ </p>
+          <p className="text-white text-balance text-6xl">Something3_ </p>
+          <p className="text-white text-balance text-6xl">Something4_ </p>
           {/*  
           <img
             src="https://img.shields.io/badge/-react-191919?style=for-the-badge&logo=react"

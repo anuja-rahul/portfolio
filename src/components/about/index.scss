@@ -18,7 +18,7 @@
     margin-right: 15rem;
     margin-bottom: 10rem;
 
-    img{
+    img {
       margin-bottom: 2rem;
       margin-right: 0.5rem;
     }
@@ -113,9 +113,9 @@
       margin: 1rem;
       min-width: -webkit-fill-available;
       min-width: fit-content;
-      opacity: 1;
-      // animation: jackInTheBox 1.2s;
-      // animation-fill-mode: forwards;
+      opacity: 0;
+      animation: jackInTheBox 1.2s;
+      animation-fill-mode: forwards;
 
       &:nth-of-type(1) {
         animation-delay: 1.1s;
