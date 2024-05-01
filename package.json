@@ -1,6 +1,6 @@
 {
-  "homepage": "https://anuja-rahul.github.io/portfolio/",
-  "name": "portfolio",
+  "homepage": "https://anuja-rahul-portfolio.vercel.app",
+  "name": "anuja-rahul-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
