@@ -58,7 +58,7 @@ function App() {
           <Route
             path="*"
             element={
-              <div className="text-balance text-center text-7xl text-white">
+              <div className="h-[30vh] text-balance text-center text-7xl text-white">
                 Page not Found !
               </div>
             }
