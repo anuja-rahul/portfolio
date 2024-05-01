@@ -5,22 +5,41 @@ import gsap from "gsap";
 
 function Layout() {
   useGSAP(() => {
-    const tl = gsap.timeline({ repeat: -1, yoyo: true });
-    tl.fromTo(
+    // const tl = gsap.timeline({ repeat: -1, yoyo: true });
+    const start = gsap.timeline();
+
+    start.fromTo(
       ".all-tags",
       {
-        x: 10,
+        opacity: 0,
+        y: -60,
       },
       {
-        x: 0,
-        duration: 1,
-        ease: "bounce.in",
-        delay: 4,
-        stagger: 0.4,
+        opacity: 0.6,
+        stagger: 0.2,
+        duration: 1.5,
+        y: 0,
+        ease: "bounce.out",
       },
       [],
     );
-  });
+
+    // tl.from(
+    //     ".all-tags",
+    //     {
+    //       y: 0,
+    //     },
+    //     [],
+    //   )
+    //   .to(".all-tags", {
+    //     y: -15,
+    //     duration: 1,
+    //     ease: "bounce.in",
+    //     delay: 4,
+    //     stagger: 0.4,
+    //   }),
+    //   [];
+  }, []);
 
   return (
     <div className="App h-auto w-full">

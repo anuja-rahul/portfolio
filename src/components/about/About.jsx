@@ -1,3 +1,5 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import AnimatedHero from "../AnimatedHero/Index";
 import "./index.scss";
 import { useState, useEffect } from "react";
@@ -15,8 +17,25 @@ function About() {
     };
   }, []);
 
+  useGSAP(() => {
+    const tl = gsap.timeline({ delay: 1.5 });
 
-
+    tl.fromTo(
+      ".about-text",
+      {
+        opacity: 0,
+        y: -50,
+      },
+      {
+        duration: 1.5,
+        opacity: 1,
+        y: 0,
+        stagger: 0.2,
+        ease: "bounce.out",
+      },
+      [],
+    );
+  }, []);
 
   return (
     <section
@@ -71,10 +90,10 @@ function About() {
           </div>
         </div>
         <div className="image-section">
-          <p className="text-white text-balance text-6xl">Something1_ </p>
-          <p className="text-white text-balance text-6xl">Something2_ </p>
-          <p className="text-white text-balance text-6xl">Something3_ </p>
-          <p className="text-white text-balance text-6xl">Something4_ </p>
+          <p className="text-balance text-6xl text-white">Something1_ </p>
+          <p className="text-balance text-6xl text-white">Something2_ </p>
+          <p className="text-balance text-6xl text-white">Something3_ </p>
+          <p className="text-balance text-6xl text-white">Something4_ </p>
           {/*  
           <img
             src="https://img.shields.io/badge/-react-191919?style=for-the-badge&logo=react"
@@ -107,10 +126,6 @@ function About() {
             alt="git"
           />
           */}
-
-
-
-
         </div>
       </div>
     </section>
