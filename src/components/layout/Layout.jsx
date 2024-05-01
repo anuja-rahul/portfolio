@@ -31,13 +31,13 @@ function Layout() {
         <span className="tags top-tags all-tags">&lt;body&gt;</span>
         <Outlet />
         <span>
-        <span className="tags bottom-tags all-tags body-bottom mb-3">
-          &lt;/body&gt;
-        </span>
-        <br />
-        <span className="tags bottom-tags all-tags bottom-tag-html">
-          &lt;/html&gt;
-        </span>
+          <span className="tags bottom-tags all-tags body-bottom mb-3">
+            &lt;/body&gt;
+          </span>
+          <br />
+          <span className="tags bottom-tags all-tags bottom-tag-html">
+            &lt;/html&gt;
+          </span>
         </span>
       </div>
     </div>
