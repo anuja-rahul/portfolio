@@ -7,7 +7,7 @@ import CustomA from "./CustomA";
 const NavLinks = () => {
   return (
     <>
-      <NavLink to="/portfolio" className="nav-links my-1 mt-1">
+      <NavLink to="/portfolio/" className="nav-links my-1 mt-1">
         Home
       </NavLink>
       <NavLink to="/portfolio/about" className="nav-links my-1 mt-1">
