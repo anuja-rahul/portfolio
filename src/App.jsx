@@ -15,7 +15,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<div>Page not Found !</div>} />
+          <Route path="*" element={<div className="text-white text-7xl text-center text-balance">Page not Found !</div>} />
         </Route>
       </Routes>
     </>

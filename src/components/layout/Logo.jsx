@@ -5,7 +5,7 @@ import LogoImg from "./../../assets/images/logo-no-background.svg";
 function Logo() {
   return (
     <div className="logo mb-4  block h-[30px] w-[100px]">
-      <NavLink to="/portfolio/">
+      <NavLink to="/">
         <img src={LogoImg} alt="logo" />
       </NavLink>
     </div>
