@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, Route } from "react-router-dom";
 import Header from "./Header";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -47,7 +47,9 @@ function Layout() {
         <span className="tags all-tags top-tag-html">&lt;html&gt;</span>
         <br />
         <span className="tags top-tags all-tags">&lt;body&gt;</span>
-        <Outlet key={location.pathname} />
+
+        <Outlet key={Route.path} />
+        {/* {console.log("Route path:", Route.path)} */}
 
         <span>
           <span className="tags bottom-tags all-tags body-bottom mb-3">

@@ -1,6 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import AnimatedHero from "../AnimatedHero/Index";
+import AnimatedHero from "./../AnimatedHero/Index";
 import "./index.scss";
 import { useState, useEffect } from "react";
 

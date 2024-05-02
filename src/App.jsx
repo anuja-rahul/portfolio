@@ -15,6 +15,7 @@ function App() {
   const router = createBrowserRouter([
     {
       element: <Layout />,
+      path: "/",
       children: [
         {
           path: "/",
