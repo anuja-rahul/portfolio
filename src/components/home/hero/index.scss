@@ -26,6 +26,8 @@
     font-weight: 400;
 
     &::before {
+      animation: bounceInDown 1.5s;
+      animation-fill-mode: forwards;
       content: "<h1>";
       font-family: "La Belle Aurore";
       color: #bed754;
@@ -37,6 +39,8 @@
     }
 
     &::after {
+      animation: bounceInUp 1.5s;
+        animation-fill-mode: forwards;
       content: "</h1>";
       font-family: "La Belle Aurore";
       color: #bed754;

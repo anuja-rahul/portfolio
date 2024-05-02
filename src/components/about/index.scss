@@ -40,6 +40,8 @@
       height: auto;
 
       &::before {
+        animation: bounceInDown 1.5s;
+        animation-fill-mode: forwards;
         content: "<p>";
         font-family: "La Belle Aurore";
         color: #bed754;
@@ -52,6 +54,8 @@
       }
 
       &::after {
+        animation: bounceInUp 1.5s;
+        animation-fill-mode: forwards;
         content: "</p>";
         font-family: "La Belle Aurore";
         color: #bed754;
@@ -79,6 +83,8 @@
       line-height: 5rem;
 
       &::before {
+        animation: bounceInDown 1.5s;
+        animation-fill-mode: forwards;
         content: "<h1>";
         font-family: "La Belle Aurore";
         color: #bed754;
@@ -91,6 +97,8 @@
       }
 
       &::after {
+        animation: bounceInUp 1.5s;
+        animation-fill-mode: forwards;
         content: "</h1>";
         font-family: "La Belle Aurore";
         color: #bed754;
